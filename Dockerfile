@@ -1,4 +1,4 @@
-FROM maven:3.9.6-openjdk-17 as maven-builder
+FROM maven:3.9.9-openjdk-17 as maven-builder
 COPY src /app/src
 COPY pom.xml /app
 
